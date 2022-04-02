@@ -22,12 +22,12 @@ export default function M() {
     <div style={{ width: "100%", height: "100%" }}>
       <Canvas
         onCreated={({ gl }) => {
-          gl.toneMapping = THREE.ReinhardToneMapping;
+          gl.toneMapping = THREE.LinearToneMapping;
           gl.toneMappingExposure = 2;
         }}
         dpr={window.devicePixelRatio}
         camera={{
-          position: [0, 1, 4],
+          position: [0, 1, 5],
           fov: 38,
           near: 1,
           far: -50000,
@@ -59,12 +59,13 @@ export default function M() {
         <pointLight position={[0, 10, 5]} intensity={0.3} />
         <hemisphereLight
           intensity={0.4}
-          groundColor={0x080820}
-          color={0xffeeb1}
+          groundColor={0xd9d8d7}
+          color={0xd9d8d7}
         />
         {/* <ambientLight /> */}
         <spotLight
-          color={0xffa95c}
+          position={[0, 100, 10]}
+          color={0xd9d8d7}
           intensity={1}
           castShadow={true}
           shadowBias={-0.0001}
