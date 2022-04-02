@@ -10,6 +10,6 @@ export default ({ setmouseMove }) => {
   }, []);
   return (
     // <div />
-    <ReactAudioPlayer id={"music"} loop src="/loyle.mp3" autoPlay={true} />
+    <ReactAudioPlayer id={"music"} loop src="loyle.mp3" autoPlay={true} />
   );
 };

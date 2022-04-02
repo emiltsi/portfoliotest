@@ -48,33 +48,33 @@ const portfolio = {
     },
     info: {
       title: "INFO",
-      name: "Raja Osama",
-      age: " ,23, ♂",
+      name: "Emil Tsikhanovich",
+      age: " ,19, ♂",
       list: [
-        ["Email -", "contact@rajaosama.com"],
-        ["LinkedIn - ", "@rajaosama"],
-        ["Github - ", "@raja0sama"],
+        ["Email -", "emil.tsikhanovich@gmail.com"],
+        ["LinkedIn - ", "Emil Tsikhanovich"],
+        ["Github - ", "@emiltsi"],
         ["Medium - ", "@supersami"],
       ],
     },
     education: {
-      title: "EDUCTION",
+      title: "EDUCATION",
       list: [
         {
-          company: "Middlesex University, @Dubai",
-          course: "Bachelor of Science - BS, Information Technology",
+          company: "University of Warwick, @Coventry",
+          course: "MEng Mechanical Engineering",
           range: "2021 : Present - ",
         },
         {
-          company: "APTECH Pakistan, @Karachi",
+          company: "Haberdashers' Adams Grammar School, @Newport",
           course:
-            "Advance Diploma In Software Engineering, Computer Software Engineering",
-          range: "2017 : 2020 - ",
+            "A-Level Mathematics, Physics, French",
+          range: "2019 : 2021 - ",
         },
         {
-          company: "CMS Collage, @Karachi",
-          course: "Higher Secondary - Pre-Engineering",
-          range: "2017 : 2019 - ",
+          company: "Telford Langley School, @Telford",
+          course: "11 GCSEs (9-7)",
+          range: "2014 : 2019 - ",
         },
       ],
     },
@@ -160,7 +160,7 @@ const portfolio = {
         link: true,
       },
       {
-        url: "mailto:contact@rajaosama.me",
+        url: "mailto:emil.tsikhanovich@gmail.com",
         label: "Email",
         link: false,
       },
@@ -169,11 +169,11 @@ const portfolio = {
         label: "Blogs",
       },
       {
-        url: "https://github.com/raja0sama",
+        url: "https://github.com/emiltsi",
         label: "GitHub",
       },
       {
-        url: "https://www.linkedin.com/in/rajaosama/",
+        url: "https://www.linkedin.com/in/emil-tsikhanovich-8654031b0/",
         label: "LinkedIn",
       },
     ],
@@ -199,82 +199,46 @@ const portfolio = {
   // Contact : Contain Information Regarding Contact Page, all the static reside here, modification here will reflect on the website
   contact: {
     helmet: {
-      title: "Raja Osama - Contact Me",
+      title: "Emil Tsikhanovich - Contact Me",
     },
-    title: "GET IN TOUCH 🏃",
+    title: "GET IN TOUCH",
     description:
-      "I am currently living in dubai and exploring opportunities around me and my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
+      "Feel free to contact me below.",
     btn: {
-      label: "Say Hi 👋",
-      url: "",
+      label: "emil.tsikhanovich@gmail.com",
+      url: "https://discordapp.com/users/emil_t/",
     },
-    ending: "Or contact@rajaosama.me",
+    ending: "or visit the side links.",
   },
   // About : Contain Information Regarding About Page, all the static reside here, modification here will reflect on the website
   About: {
     helmet: {
-      title: "Raja Osama - About Me",
+      title: "Emil Tsikhanovich - About Me",
     },
     title: "BIO",
     social: {
       label: "🏃 Follow me on ",
       links: [
-        { label: "Twitter", url: "https://twitter.com/devrajaosama" },
-        { label: "Linkedin", url: "https://www.linkedin.com/in/rajaosama/" },
-        { label: "GitHub", url: "https://github.com/Raja0sama" },
-        { label: "Medium", url: "https://supersami.medium.com/" },
+        { label: "Linkedin", url: "https://www.linkedin.com/in/emil-tsikhanovich-8654031b0/" },
+        { label: "GitHub", url: "https://github.com/emiltsi" },
       ],
     },
     description: [
-      ` a multi-talented Human being, a self-proclaimed Best Developer in
-              the world, A Javascript enthusiast, A Rockstar programmer,
-              Currently living in Karachi~Pakistan. I have worked my ass off for
-              the past 5 years in the tech world, mostly for startups and as a
-              freelancer, created tons of landing pages, websites, mobile
-              applications along the way, as well as dropped my bachelor's
-              degree, failed my startup, and created huge, unrealistic
-              expectations of self.`,
-      ` The Abundant energy I have fuels me in the pursuit of various
-              interests, hobbies, areas of studies, and artistic endeavors. I am
-              a fast learner who adapts quickly to change and eager to learn new
-              methods and procedures, whether it is a cultural change or a
-              work-related one`,
-      `I am an adventurer, I want to travel the world, I am fascinated by
-              the beauty of the Earth. The goal is to travel and to get me into
-              a recursive infinite loop of traveling, living the moment and
-              working in a location for a certain period and then move to the
-              next one. Not just the world I am fascinated by SPACE, everything
-              about space and distant planets and the countless stars fascinate
-              me in a way that I can’t put into words.`,
-      `   As a Programmer, I would like to call myself a Tech Agnostic
-              Polyglot Programmer, One who can adapt and learn and change
-              according to the surrounding.`,
-      `  I'm usually focused on : <br /> 🎛️ Designing great User interfaces
-              experience <br />
-              🌐 Developing full-stack websites that scales <br />✨ Developing
-              backend and structuring databases. <br />
-              🧰 Building Libraries and writing Technical blogs. In my work, I
-              value, <br />
-              ⏱️ Efficiency 🎯 Consistency <br />
-              ♻️ Reusability <br />
-              ⚙️ Systems <br />
-              📋 Standards <br />
-              🤖Automation <br />
-              💠 Modular Design <br />
-              👍 Emoji Lists`,
+      `Hello. My name is Emil. I am currently studying MEng Mechanical Engineering at the University of Warwick. I've always had an interest in cars, and I'd like to eventually work in the automotive industry for design and development.`,
+      `I have a proven track record of leadership and practical skills, from both University and other projects.`,
+
+      `Please follow the links on the sidebars for more information.`,
     ],
   },
   // Home : Contain Information Regarding Home Page, all the static reside here, modification here will reflect on the website
   home: {
     showModel: true,
     helmet: {
-      title: "Raja Osama - Welcome to Raja Osama's Dev-folio",
+      title: "Emil Tsikhanovich - Welcome to my portfolio",
     },
-    title: ["Raja", "Osama"],
-    subTitle: "Senior Software Engineer",
-    description: `I Describe my self as a Polyglot ~ Tech Agnostic ~ Rockstar
-                    Software Engineer. I Specialize in Javascript based Tech
-                    stacks to create fascinating applications.`,
+    title: ["Emil Tsikhanovich"],
+    subTitle: "MEng Engineering Student",
+    description: ``,
   },
   // Projects : Contain Information Regarding Projects Page, all the static reside here, modification here will reflect on the website
   projects: [
