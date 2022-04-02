@@ -23,7 +23,7 @@ export default function M() {
       <Canvas
         onCreated={({ gl }) => {
           gl.toneMapping = THREE.LinearToneMapping;
-          gl.toneMappingExposure = 2;
+          gl.toneMappingExposure = 1.5;
         }}
         dpr={window.devicePixelRatio}
         camera={{
@@ -55,24 +55,24 @@ export default function M() {
           shadow-camera-bottom={10}
         />
         {/* <axesHelper /> */}
-        <pointLight position={[10, -10, -20]} intensity={0.3} />
-        <pointLight position={[0, 10, 5]} intensity={0.3} />
+        <pointLight position={[50, 10, 50]} intensity={0.1} />
+        <pointLight position={[0, 10, 5]} intensity={0.1} />
         <hemisphereLight
-          intensity={0.4}
-          groundColor={0xd9d8d7}
+          intensity={0.1}
+          groundColor={0x4a4a4a}
           color={0xd9d8d7}
         />
         {/* <ambientLight /> */}
         <spotLight
-          position={[0, 100, 10]}
-          color={0xd9d8d7}
-          intensity={1}
+          position={[0, 100, 50]}
+          color={0xf0f5fc}
+          intensity={2}
           castShadow={true}
-          shadowBias={-0.0001}
+          shadowBias={0.1}
           shadow={{
             mapSize: {
-              width: 1024 * 4,
-              height: 1024 * 4,
+              width: 512 * 4,
+              height: 512 * 4,
             },
           }}
         />

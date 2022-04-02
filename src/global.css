@@ -26,14 +26,15 @@ a {
 }
 
 .logo {
-  font-family: "Yuji Boku", cursive;
+  font-family: "Poppins", cursive;
 }
 
 .splashLogo {
   font-family: "Poppins", cursive;
   font-weight: bold;
-  font-size: 10vw;
-  line-height: 0.9;
+  font-size: 7.5vw;
+  line-height: 1;
+  padding-bottom: 550px;
 }
 
 .vertical-rotate {

@@ -37,7 +37,7 @@ export default function Home({ data }) {
               <ul>
                 {data.title.map((e, i) => (
                   <motion.li
-                    style={{ opacity: 0, x: -100, textAlign: "center" }}
+                    style={{ opacity: 0, x: -100, textAlign: "center",}}
                     custom={5 + i}
                     animate={controls}
                   >
@@ -57,7 +57,7 @@ export default function Home({ data }) {
                   custom={7}
                   style={{
                     maxWidth: 600,
-                    width: "100%",
+                    width: "20%",
                     marginTop: 40,
                     textAlign: "center",
                     opacity: 0,
