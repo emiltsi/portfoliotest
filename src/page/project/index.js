@@ -21,7 +21,7 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Raja Osama - {data.title}</title>
+        <title>Emil Tsikhanovich - {data.title}</title>
       </Helmet>
       <div className="h-full w-full flex">
         <div className="h-full w-full h-full w-full  flex flex-col justify-center p-2">
