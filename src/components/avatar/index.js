@@ -28,7 +28,7 @@ export default function M() {
         dpr={window.devicePixelRatio}
         camera={{
           position: [0, 1, 5],
-          fov: 38,
+          fov: 50,
           near: 1,
           far: -50000,
           rotation: [-0.02, 0, 0],
