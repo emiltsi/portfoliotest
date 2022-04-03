@@ -28,6 +28,20 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <div class="mobileShow">
+    Sorry. This website is not supported on mobile yet.
+  </div>
+  <style type="text/css">
+    .mobileShow {display: none;}
+  
+    /* Smartphone Portrait and Landscape */
+    @media only screen
+      and (min-device-width : 320px)
+      and (max-device-width : 480px){ 
+        .mobileShow {display: inline;}
+    }
+  </style>
+
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
