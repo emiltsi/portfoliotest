@@ -1,9 +1,9 @@
 # Portfolio
 
-```
-cd emilportfolio
+React.js, Three.js.
 
-code .
+```
 yarn start | npm start
+
 ```
 
