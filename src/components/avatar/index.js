@@ -6,16 +6,16 @@ import { Canvas } from "@react-three/fiber";
 import Model from "./model";
 
 export default function M() {
-  const [position, setposition] = useState([0, 0, 0]);
+  const [position, setPosition] = useState([0, 0, 0]);
   useEffect(() => {
-    setInterval((e) => setposition([0, -1, 0]), 1000);
-    // setInterval(() => {
-    //   setposition([0, -1, 0]);
-    // }, 1001);
+    setInterval((e) => setPosition([0, -1, 0]), 1000);
+    setInterval(() => {
+    setPosition([0, -1, 0]);
+    }, 1001);
   }, []);
 
   useEffect(() => {
-    window.model = (e) => setposition(e);
+    window.model = (e) => setPosition(e);
   }, []);
 
   return (
