@@ -75,7 +75,7 @@ export default function Home({ data }) {
           <motion.div
             id="tt"
             style={{
-              opacity: 0,
+              opacity: 100,
 
               position: "absolute",
               top: 0,
