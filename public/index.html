@@ -28,17 +28,13 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <div class="mobileShow" style="background-color: red; color: white; padding-bottom: 100px;">
+  <div class="mobileShow">
     Sorry. This website is not supported on mobile yet.
   </div>
-  <style type="text/css">
-    .mobileShow {display: none;}
-  
-    /* Smartphone Portrait and Landscape */
-    @media only screen
-      and (min-device-width : 320px)
-      and (max-device-width : 600px){ 
-        .mobileShow {display: inline;}
+  <style>
+    @media (max-width: 767px) {
+        .car {
+          display: none;
     }
   </style>
 
@@ -53,5 +49,4 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
-
 </html>

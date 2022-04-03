@@ -20,7 +20,7 @@ export default function M() {
 
   return (
     <div style={{ width: "100%", height: "100%" }}>
-      <Canvas
+      <Canvas class="car"
         onCreated={({ gl }) => {
           gl.toneMapping = THREE.LinearToneMapping;
           gl.toneMappingExposure = 1.5;
