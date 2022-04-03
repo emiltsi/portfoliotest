@@ -9,9 +9,9 @@ export default function M() {
   const [position, setPosition] = useState([0, 0, 0]);
   useEffect(() => {
     setInterval((e) => setPosition([0, -1, 0]), 1000);
-    setInterval(() => {
-    setPosition([0, -1, 0]);
-    }, 1001);
+    // setInterval(() => {
+    //   setposition([0, -1, 0]);
+    // }, 1001);
   }, []);
 
   useEffect(() => {
