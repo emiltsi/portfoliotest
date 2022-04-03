@@ -28,7 +28,7 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <div class="mobileShow">
+  <div class="mobileShow" style="background-color: red; color: white; padding-bottom: 100px;">
     Sorry. This website is not supported on mobile yet.
   </div>
   <style type="text/css">
@@ -37,11 +37,9 @@
     /* Smartphone Portrait and Landscape */
     @media only screen
       and (min-device-width : 320px)
-      and (max-device-width : 480px){ 
+      and (max-device-width : 600px){ 
         .mobileShow {display: inline;}
     }
-    background-color: red;
-    padding-bottom: 50px;
   </style>
 
   <!--
