@@ -20,7 +20,7 @@ export default function M() {
 
   return (
     <div style={{ width: "100%", height: "100%" }}>
-      <Canvas class="car"
+      <Canvas
         onCreated={({ gl }) => {
           gl.toneMapping = THREE.LinearToneMapping;
           gl.toneMappingExposure = 1.5;
@@ -40,7 +40,7 @@ export default function M() {
             return <div>loading</div>;
           }}
         >
-          <Model />
+          <Model class="car" />
         </Suspense>
         {/* <OrbitControls position={[0, -1, 0]} /> */}
         <directionalLight
