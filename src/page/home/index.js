@@ -77,7 +77,7 @@ export default function Home({ data }) {
             style={{
               opacity: 100,
 
-              position: "absolute",
+              position: "justified",
               top: 0,
               right: 0,
               left: 0,
