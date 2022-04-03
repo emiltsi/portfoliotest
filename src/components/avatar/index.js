@@ -4,6 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 
 import { Canvas } from "@react-three/fiber";
 import Model from "./model";
+import { Bounds, useBounds, OrbitControls, ContactShadows, useGLTF } from '@react-three/drei'
 
 export default function M() {
   const [position, setPosition] = useState([0, 0, 0]);
@@ -21,11 +22,10 @@ export default function M() {
   return (
     <div style={{ width: "100%", height: "100%" }}>
       <Canvas
-        onCreated={({ gl }) => {
-          gl.toneMapping = THREE.LinearToneMapping;
-          gl.toneMappingExposure = 1.5;
-        }}
-        dpr={window.devicePixelRatio}
+        linear
+        gl={{ toneMappingExposure = 1.5 }}
+        // Clamp window.devicePixelRatio between 1-2, this is the default on v8
+        dpr={[1, 2]}
         camera={{
           position: [0, 1, 5],
           fov: 50,
