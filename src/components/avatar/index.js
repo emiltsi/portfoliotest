@@ -1,3 +1,4 @@
+/*
 import * as THREE from "three";
 
 import { Suspense, useEffect, useState } from "react";
@@ -44,6 +45,7 @@ export default function M() {
           <Model class="car" />
         </Suspense>
         {/* <OrbitControls position={[0, -1, 0]} /> */}
+        /*
         <directionalLight
           castShadow
           position={[50, 20, 80]}
@@ -56,6 +58,7 @@ export default function M() {
           shadow-camera-bottom={10}
         />
         {/* <axesHelper /> */}
+        /*
         <pointLight position={[50, 10, 50]} intensity={0.1} />
         <pointLight position={[0, 10, 5]} intensity={0.1} />
         <hemisphereLight
@@ -64,6 +67,7 @@ export default function M() {
           color={0xd9d8d7}
         />
         {/* <ambientLight /> */}
+        /*
         <spotLight
           position={[0, 100, 50]}
           color={0xf0f5fc}
