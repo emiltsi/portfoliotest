@@ -1,6 +1,6 @@
-# Portfolio
+# Personal Portfolio
 
-React.js, Three.js.
+Made from an open-source template using React.js, Three.js.
 
 ```
 yarn start | npm start
