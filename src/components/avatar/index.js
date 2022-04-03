@@ -4,7 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 
 import { Canvas } from "@react-three/fiber";
 import Model from "./model";
-import { Bounds, useBounds, OrbitControls, ContactShadows, useGLTF } from '@react-three/drei'
+import { Bounds, useBounds,} from '@react-three/drei'
 
 export default function M() {
   const [position, setPosition] = useState([0, 0, 0]);
