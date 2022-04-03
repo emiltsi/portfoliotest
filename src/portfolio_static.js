@@ -60,7 +60,7 @@ const portfolio = {
         link: false,
       },
       {
-        url: "https://emilt.xyz/quartz/",
+        url: "https://emiltsi.github.io/quartz/",
         label: "Blogs",
       },
       {
